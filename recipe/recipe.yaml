@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: oss-harmony
-  version: "0.0.11"
+  version: "0.0.12"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/oss_harmony-${{ version }}.tar.gz
-  sha256: ccad467b71d61490df1f2204b7a064990833338615ac135536c5b3a8e2d03a15
+  sha256: 6a2dd2db3ecd5ac771768c0a3091a2e1ee1354cbfcd61efa1283c26f300f0fcd
 
 build:
   number: 0
